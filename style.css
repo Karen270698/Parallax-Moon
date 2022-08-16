@@ -136,4 +136,7 @@ section img#mountains_front {
         right: -850px;
         font-size: 22vw;
     }
+        .sec {
+        padding: 100px 20px;
+    }
 }
