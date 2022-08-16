@@ -8,6 +8,8 @@
     scroll-behavior: smooth;
 }
 body {
+    width: 100%;
+    margin: 0;
     min-height: 100vh;
     overflow-x: hidden;
     background: linear-gradient(#2b1055, #7597de);
@@ -117,4 +119,21 @@ section img#mountains_front {
     font-size: 1.2em;
     line-height: 1.5em;
     color: #fff;
+}
+
+/*------Media--------*/
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    header ul {
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    #text {
+        right: -850px;
+        font-size: 22vw;
+    }
 }
